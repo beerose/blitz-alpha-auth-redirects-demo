@@ -271,4 +271,6 @@ const Home = () => {
   )
 }
 
+Home.authenticate = { redirectTo: "/auth/login"}
+
 export default Home
